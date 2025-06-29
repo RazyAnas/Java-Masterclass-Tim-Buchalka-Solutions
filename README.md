@@ -1,4 +1,5 @@
 <h1 align="center">Java-Masterclass-Tim-Buchalka-Solutions</h1>
+> If you find any mistake or have a better solution, feel free to open an issue or suggest changes.
 
 <p align="center">
 (2025) Java Programming Masterclass by Tim Buchalka – Solved Code Challenges & Questions
@@ -8,7 +9,6 @@
 This repository includes code for challenges from the Udemy course "Java Programming Masterclass" by Tim Buchalka.
 </p>
 
-> If you find any mistake or have a better solution, feel free to open an issue or suggest changes.
 
 
 <!--
