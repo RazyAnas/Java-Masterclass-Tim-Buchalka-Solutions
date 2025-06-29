@@ -1,4 +1,5 @@
-# Java-Masterclass-Tim-Buchalka-Solutions
+<h1 align="center">Java-Masterclass-Tim-Buchalka-Solutions</h1>
+
 <p align="center">
 (2025) Java Programming Masterclass by Tim Buchalka – Solved Code Challenges & Questions
 </p>
