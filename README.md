@@ -8,9 +8,8 @@
 This repository includes code for challenges from the Udemy course "Java Programming Masterclass" by Tim Buchalka.
 </p>
 
-<p align="center">
-If you find any mistake or have a better solution, feel free to open an issue or suggest changes.
-</p>
+> If you find any mistake or have a better solution, feel free to open an issue or suggest changes.
+
 
 <!--
 SEO Keywords:
