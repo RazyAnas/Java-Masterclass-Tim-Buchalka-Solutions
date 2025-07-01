@@ -2,7 +2,7 @@ import java.time.Year;
 
 import static java.time.Year.isLeap;
 
-public class LeapYear {
+public class LeapYearCalculator {
     public static void main(String[] args) {
         // Easy Method - Intermediate Level
 //        int year = 2024;

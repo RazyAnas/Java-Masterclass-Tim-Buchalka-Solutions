@@ -1,4 +1,4 @@
-public class SumOddRange {
+public class SumOdd {
 
     public static boolean isOdd(int number){
            if(number<0){

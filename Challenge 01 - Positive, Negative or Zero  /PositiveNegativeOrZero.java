@@ -1,4 +1,4 @@
-public class PositiveNegativeZero {
+public class PositiveNegativeOrZero {
     
     public static void checkNumber(int number){
         if(number > 0){

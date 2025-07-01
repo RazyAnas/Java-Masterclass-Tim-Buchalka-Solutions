@@ -1,4 +1,4 @@
-public class GetEvenDigitSum {
+public class EvenDigitSum {
     public static void main(String[] args) {
         System.out.println(getEvenDigitSum(859658));
     }

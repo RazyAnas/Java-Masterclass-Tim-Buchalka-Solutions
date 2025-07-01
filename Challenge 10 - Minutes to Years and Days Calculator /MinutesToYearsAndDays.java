@@ -1,4 +1,4 @@
-public class MinutesToYearsDaysCalculator {
+public class MinutesToYearsDays {
 
     public static void main(String[] args) {
         printYearsAndDays(561600);
