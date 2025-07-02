@@ -22,7 +22,7 @@ import java.util.Scanner;
 
 public class SumAndAverage {
     public static void main(String[] args) {
-        inputThenPrintSumAndAverage(); // ✅ Just call the method here
+        inputThenPrintSumAndAverage();
 
     }
     public static void inputThenPrintSumAndAverage(){
