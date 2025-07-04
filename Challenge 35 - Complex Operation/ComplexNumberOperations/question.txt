@@ -1,0 +1,24 @@
+/*
+QUESTION: Complex Number Operations
+
+Write a class named `ComplexNumber` with the following:
+
+Fields:
+- private double real
+- private double imaginary
+
+Constructor:
+- ComplexNumber(double real, double imaginary)
+
+Methods:
+1. `getReal()` – returns the real part
+2. `getImaginary()` – returns the imaginary part
+3. `add(double real, double imaginary)` – adds to the current real and imaginary values
+4. `add(ComplexNumber other)` – adds another ComplexNumber to this one
+5. `subtract(double real, double imaginary)` – subtracts from the current real and imaginary values
+6. `subtract(ComplexNumber other)` – subtracts another ComplexNumber from this one
+
+NOTE:
+- All methods should be public.
+- No main method should be added to the class.
+*/
