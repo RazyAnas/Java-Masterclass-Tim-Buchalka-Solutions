@@ -1,3 +1,6 @@
+<!-- In README.md -->
+<meta name="description" content="Solved Java challenges from Tim Buchalka's Java Masterclass Udemy course. Java 8 to Java 21. Beginner to advanced.">
+
 <h1 align="center">Java-Masterclass-Tim-Buchalka-Solutions</h1>
 
 > If you find any mistake or have a better solution, feel free to open an issue.
