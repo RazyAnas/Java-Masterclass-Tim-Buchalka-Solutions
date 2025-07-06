@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Java Masterclass Solutions</title>
+  <meta charset="UTF-8" />
+  <title>Java Masterclass Challenge Index</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; background: #f9f9f9; }
+    h1 { font-size: 1.8rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.5rem; }
+    a { text-decoration: none; color: #0077cc; }
+    a:hover { text-decoration: underline; }
+  </style>
 </head>
 <body>
-  <h1>Welcome to My Java Masterclass Solutions</h1>
-  <p>This site supports Google verification for the GitHub repository.</p>
-  <p>👉 <a href="https://github.com/RazyAnas/Java-Masterclass-Tim-Buchalka-Solutions">View on GitHub</a></p>
+  <h1>📂 Java Masterclass Challenge Index</h1>
+  <p>Automatically listing all challenge folders in this repository.</p>
+  <ul id="folder-list">Loading...</ul>
+  <script>
+    const owner = "RazyAnas";
+    const repo = "Java-Masterclass-Tim-Buchalka-Solutions";
+
+    async function fetchFolders() {
+      const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents`);
+      const data = await res.json();
+      const list = document.getElementById("folder-list");
+      list.innerHTML = ""; // Clear loading text
+
+      data.forEach(item => {
+        if (item.type === "dir" && item.name.startsWith("Challenge")) {
+          const link = `https://github.com/${owner}/${repo}/tree/main/${encodeURIComponent(item.name)}`;
+          const li = document.createElement("li");
+          li.innerHTML = `<a href="${link}" target="_blank">${item.name}</a>`;
+          list.appendChild(li);
+        }
+      });
+    }
+
+    fetchFolders().catch(err => {
+      document.getElementById("folder-list").innerText = "Failed to load folder list.";
+      console.error(err);
+    });
+  </script>
 </body>
 </html>
