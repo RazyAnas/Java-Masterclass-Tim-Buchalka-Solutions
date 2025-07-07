@@ -22,7 +22,7 @@ This project is a compilation of my work while progressing through one of the mo
 
 Here is a complete index of all the files and folders within this repository. You can click on any file or folder to navigate directly to it.
 
-```
+
 📁 Java-Masterclass-Tim-Buchalka-Solutions
 ├── [Challenge 01 - Positive, Negative or Zero  ](https://github.com/RazyAnas/Java-Masterclass-Tim-Buchalka-Solutions/tree/main/Challenge%2001%20-%20Positive,%20Negative%20or%20Zero%20%20)
 │   ├── [Exercise-Description.txt](https://github.com/RazyAnas/Java-Masterclass-Tim-Buchalka-Solutions/blob/main/Challenge%2001%20-%20Positive,%20Negative%20or%20Zero%20%20/Exercise-Description.txt)
@@ -204,7 +204,7 @@ Here is a complete index of all the files and folders within this repository. Yo
 ├── [Challenge 48 - Interface](https://github.com/RazyAnas/Java-Masterclass-Tim-Buchalka-Solutions/tree/main/Challenge%2048%20-%20Interface)
 ├── [Challenge 49 - Playlist (Inner Class)](https://github.com/RazyAnas/Java-Masterclass-Tim-Buchalka-Solutions/tree/main/Challenge%2049%20-%20Playlist%20(Inner%20Class))
 └── [Challenge 50 - Abstract Class](https://github.com/RazyAnas/Java-Masterclass-Tim-Buchalka-Solutions/tree/main/Challenge%2050%20-%20Abstract%20Class)
-```
+
 
 ## 💻 How to Use
 
